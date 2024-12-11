@@ -148,7 +148,7 @@ export class Confetti {
   generator: ParticleGenerator
 
   rafId?: number
-  
+
   lastFrameTime: number = Date.now()
 
   get options(): Partial<IConfettiOptions> {
